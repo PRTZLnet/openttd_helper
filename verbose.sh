@@ -10,7 +10,7 @@ yes | sudo apt-get install build-essential pkg-config libsdl1.2-dev subversion p
 pushd openttd-1.8.0/
 ./configure --enable-dedicated 
 echo "this step may take as long as 20 minutes, please be patient. If it fails, you'll know."
-make --jobs=1 > /dev/null 2>&1
+make --jobs=1 > /dev/null
 sudo make install 
 wget http://binaries.openttd.org/bananas/basegraphic/zBase-v5588.tar.gz 
 gunzip zBase-v5588.tar.gz 
