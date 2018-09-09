@@ -21,3 +21,4 @@ echo "generating openttd.cfg..."
 sudo service openttd start
 sudo service openttd stop
 echo "installation complete, save files, openttd.cfg et al are located in the directory ~/.openttd/"
+popd
